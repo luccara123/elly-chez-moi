@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: #fff;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    background-image: url("./imgs/bg.jpg");
+}
+
+.logo{
+    width: 60%;
+}
+
+nav h1{
+    padding-top: 5%;
+    font-family: 'Assistant', sans-serif;
+    font-size: 90px;
+    font-weight: 100;
+}
+.image img{
+    width: 250px;
+}
+
+.main-container{
+    padding-top: 10px;
+    line-height: 4rem;
+}
+
+.icons i{
+    padding: 0 10px 0 10px;
+    color: gray;
+    font-size: 29px;
+}
+
+.icons i:hover{
+    color: white;
+}
+
+span{
+    color: rgb(167, 54, 54)
+}
+
+a{
+    text-decoration: none;
+    color:rgb(133, 192, 231);
+    font-size: 26px;
+}
+
+a:hover{
+    color:rgb(57, 131, 180)
+}
+
+.name{
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.title2{
+    font-size: 30px;;
+}
+
+.name2{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color:rgb(196, 118, 118);
+    padding-top: 50px;
+}
+
+.pre-save-link{
+    padding-top: 40px;
+  
+}
+
+
+
+.countdown {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .countdown div {
+    padding: 0px;
+    border: 1px  #fff solid;
+    border-radius: 10px;
+    color:  rgb(190, 106, 120);
+    background: black;
+    opacity: 0.5;
+  }
+  
+  
+  .countdown span {
+    font-size: 20px;
+  }
+
+.name{
+    font-family: 'Eater', cursive;
+    color:rgb(133, 192, 231)
+}
+
+header h1{
+    font-family: 'Acme', sans-serif;
+}
+
+.wrapper{
+    border: 1px white solid;
+    width: 40%;
+    margin: 50px  auto;
+}
+
+/*Pulse effects*/
+.element {
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    animation-name: stretch;
+    animation-duration: 2.0s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes stretch {
+    0% {
+        transform: scale(.8);
+      
+    }
+
+    
+
+    100% {
+        transform: scale(1.0);
+      
+    }
+}
+
+/* Media Queries*/
+@media (max-width: 913px){
+    .wrapper{
+        border: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    header h1{
+        font-size: 50px;
+    }
+
+    .logo{
+        width: 300px;
+    }
+
+    .video-container iframe{
+        width: 300px;
+        height: 230px;
+    }
+
+    .element{
+        width: 290px;
+        height: 290px;
+    }
+}
