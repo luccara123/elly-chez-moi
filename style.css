@@ -9,12 +9,12 @@
 
 
 body{
-     background-image: url("./imgs/newbackground.png");
+    /* background-image: url("./imgs/newbackground.png");* */
      background-size: contain;
      background-repeat: no-repeat;
      background-size: cover;
      font-family: var(--font-1);
-     color: #fff;
+     background-color: #51191c;
 }
 .wrapper{
     text-align: center; 
